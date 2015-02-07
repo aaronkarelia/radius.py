@@ -1,0 +1,13 @@
+# radius.py
+# find the area and volume of a sphere
+
+import math
+def main():
+
+    radius = eval(input("What is the radius of the sphere? "))
+    V = 4/3 * math.pi * radius * radius * radius
+    A = 4 * math.pi * radius * radius
+    
+    print("The area is", A, "and the volume is", V)
+
+main()
